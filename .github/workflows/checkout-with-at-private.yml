@@ -1,4 +1,4 @@
-name: checkout repository with at
+name: checkout repository with at (private)
 
 on:
   push:
