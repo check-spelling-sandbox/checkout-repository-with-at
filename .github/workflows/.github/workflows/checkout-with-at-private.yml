@@ -1,0 +1,14 @@
+name: checkout repository with at
+
+on:
+  push:
+
+jobs:
+  checkout:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: check-spelling-sandbox/checkout-repository-with-at@main
+          ssh-key: ${{ secrets.REPO_KEY }}
