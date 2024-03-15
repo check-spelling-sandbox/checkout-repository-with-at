@@ -10,5 +10,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: check-spelling-sandbox/checkout-repository-with-at-private@main
+          repository: check-spelling-sandbox/checkout-repository-with-at@main
           ssh-key: ${{ secrets.REPO_KEY }}
